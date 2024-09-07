@@ -33,7 +33,7 @@
 
 @layer utilities {
   .max__wrapper {
-    @apply mx-auto max-w-[1440px];
+    @apply mx-auto max-w-[1920px];
   }
 
   .padding__x {
@@ -50,6 +50,10 @@
 
   .flex__between {
     @apply flex items-center justify-between;
+  }
+
+  .flex__start {
+    @apply flex items-start justify-start;
   }
 }
 

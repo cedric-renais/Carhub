@@ -4,6 +4,7 @@ const config: Config = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './layouts/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
@@ -19,7 +20,7 @@ const config: Config = {
       },
       backgroundImage: {
         pattern: "url('/assets/images/pattern.webp')",
-        hero: "url('assets/images/hero.webp')",
+        hero: "url('/assets/images/hero.webp')",
       },
     },
   },
