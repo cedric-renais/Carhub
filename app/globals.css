@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/***************************/
+/******* FONT-FACES ********/
+/***************************/
+/**       Manrope         **/
+/***************************/
+@font-face {
+  font-family: 'Manrope';
+  font-weight: 100 900;
+  src: url('/assets/font/Manrope-VariableFont_wght.ttf') format('truetype');
+}
+
+/*****************/
+/** BASE STYLES **/
+/*****************/
+
+@layer base {
+  * {
+    @apply m-0 box-border p-0;
+  }
+
+  html {
+    @apply scroll-smooth bg-white font-sans text-black;
+  }
+}
+
+/**********************/
+/** UTILITIES STYLES **/
+/**********************/
+
+@layer utilities {
+  .max__wrapper {
+    @apply mx-auto max-w-[1440px];
+  }
+
+  .padding__x {
+    @apply px-6 sm:px-16;
+  }
+
+  .padding__y {
+    @apply py-4;
+  }
+
+  .flex__center {
+    @apply flex items-center justify-center;
+  }
+
+  .flex__between {
+    @apply flex items-center justify-between;
+  }
+}
+
+/***********************/
+/** COMPONENTS STYLES **/
+/***********************/
+
+@layer components {
+  .button {
+    @apply flex__center relative flex-row px-6 py-3;
+  }
+}
