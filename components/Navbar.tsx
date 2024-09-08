@@ -19,7 +19,7 @@ const Navbar = () => {
         <Button
           title="Se connecter"
           type="button"
-          containerStyles="text-white bg-gray border border-transparent hover:bg-white hover:text-gray hover:border-gray transition-colors rounded-full min-w-[130px]"
+          containerStyles="text-white bg-gray hover:bg-gray/90 transition-colors rounded-full min-w-[130px]"
         />
       </nav>
     </header>

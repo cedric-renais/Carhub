@@ -2,7 +2,13 @@
 
 import { ButtonProps } from '@types';
 
-const Button = ({ title, type, containerStyles, handleClick }: ButtonProps) => {
+const Button = ({
+  title,
+  type,
+  textStyles,
+  containerStyles,
+  handleClick,
+}: ButtonProps) => {
   return (
     <button
       className={`button ${containerStyles}`}
@@ -10,7 +16,7 @@ const Button = ({ title, type, containerStyles, handleClick }: ButtonProps) => {
       type={type || 'button'}
       onClick={handleClick}
     >
-      <span className={`flex-1`}>{title}</span>
+      <span className={`flex-1 ${textStyles}`}>{title}</span>
     </button>
   );
 };

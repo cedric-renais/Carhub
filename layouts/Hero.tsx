@@ -20,12 +20,12 @@ const Hero = () => {
         <Button
           title="Explorer les voitures"
           type="button"
-          containerStyles="bg-blue border border-transparent hover:bg-white hover:text-blue hover:border-blue transition-colors text-white rounded-full mt-10"
+          containerStyles="bg-blue hover:bg-blue/90 transition-colors text-white rounded-full mt-10"
           handleClick={handleScroll}
         />
       </div>
 
-      <div className="flex w-full items-end justify-end xl:h-screen xl:flex-[1.5]">
+      <div className="flex__end item w-full xl:h-screen xl:flex-[1.5]">
         <div className="relative z-0 h-[590px] w-[90%] xl:h-full xl:w-full">
           <Image
             className="object-contain"
@@ -36,7 +36,7 @@ const Hero = () => {
             priority
           />
         </div>
-        <div className="bg-hero absolute -right-1/4 -z-10 h-[590px] w-full overflow-hidden bg-repeat-round xl:-right-1/2 xl:-top-24 xl:h-screen" />
+        <div className="absolute -right-1/4 -z-10 h-[590px] w-full overflow-hidden bg-hero bg-repeat-round xl:-right-1/2 xl:-top-24 xl:h-screen" />
       </div>
     </section>
   );

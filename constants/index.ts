@@ -1,3 +1,16 @@
+export const manufacturers = [
+  'Audi',
+  'BMW',
+  'Citroen',
+  'Fiat',
+  'Honda',
+  'Kia',
+  'Mercedes-Benz',
+  'Tesla',
+  'Toyota',
+  'Volkswagen',
+];
+
 export const footerLinks = [
   {
     title: 'À propos',
