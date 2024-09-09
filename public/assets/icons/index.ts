@@ -1,4 +1,4 @@
-import Bmw from './bmw.svg';
+import Arrow from './arrow.svg';
 import Car from './car.svg';
 import Chevrons from './chevrons.svg';
 import Close from './close.svg';
@@ -7,4 +7,4 @@ import Search from './search.svg';
 import Tire from './tire.svg';
 import Wheel from './wheel.svg';
 
-export { Bmw, Car, Chevrons, Close, Gas, Search, Tire, Wheel };
+export { Arrow, Car, Chevrons, Close, Gas, Search, Tire, Wheel };

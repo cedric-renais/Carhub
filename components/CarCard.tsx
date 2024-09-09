@@ -1,7 +1,10 @@
-import { Button } from '@components';
+'use client';
+
+import { Button, CarDetails } from '@components';
 import { Gas, Wheel } from '@public/assets/icons';
 import { CarProps } from '@types';
 import Image from 'next/image';
+import { useState } from 'react';
 
 interface CarCardProps {
   car: CarProps;
@@ -9,24 +12,28 @@ interface CarCardProps {
 
 const CarCard = ({ car }: CarCardProps) => {
   const { constructeur, modèle, prix, image, transmission, carburant } = car;
+
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <div className="group flex flex-col items-start justify-center rounded-3xl bg-gray/5 p-6 hover:bg-white hover:shadow-md">
       <div className="flex w-full flex-col gap-2">
         <h3 className="text-[22px] font-bold leading-[26px]">
           {constructeur} {modèle}
         </h3>
-        <p className="mt-6 flex text-[32px] font-extrabold">
+        <h4 className="mt-6 flex text-[32px] font-extrabold">
           {prix}
           <span className="self-start text-base font-semibold">€</span>
           <span className="self-end text-base font-semibold">/Jour</span>
-        </p>
+        </h4>
         <div className="relative my-3 h-40 w-full">
           <Image
-            className="object-contain transition-transform hover:scale-110"
+            className="object-contain"
             src={image}
             alt={`${constructeur}, ${modèle}.`}
             fill
             sizes="100%"
+            priority
           />
         </div>
       </div>
@@ -46,9 +53,17 @@ const CarCard = ({ car }: CarCardProps) => {
             title="Voir plus"
             containerStyles="w-full py-[16px] rounded-full bg-blue"
             textStyles="text-white font-semibold"
+            handleClick={() => {
+              setIsOpen(true);
+            }}
           />
         </div>
       </div>
+      <CarDetails
+        isOpen={isOpen}
+        closeModal={() => setIsOpen(false)}
+        car={car}
+      />
     </div>
   );
 };

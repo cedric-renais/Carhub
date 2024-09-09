@@ -8,7 +8,7 @@ import {
   ComboboxOptions,
   Transition,
 } from '@headlessui/react';
-import { Bmw } from '@public/assets/icons';
+import { Arrow } from '@public/assets/icons';
 import { SearchManufacturerProps } from '@types';
 import { allCars } from '@utils';
 import Image from 'next/image';
@@ -44,7 +44,7 @@ const SearchManufacturer = ({
           <ComboboxButton className="absolute top-[14px]">
             <Image
               className="ml-4 object-contain"
-              src={Bmw}
+              src={Arrow}
               alt="Logo BMW"
               width={20}
               height={20}
