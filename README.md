@@ -29,3 +29,4 @@ Ce projet a pour objectif de créer une interface web moderne et dynamique pour 
 - postcss
 - prettier
 - prettier-plugin-tailwindcss
+- Headless UI
