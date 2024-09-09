@@ -51,7 +51,7 @@ const SearchManufacturer = ({
             />
           </ComboboxButton>
           <ComboboxInput
-            className="h-[48px] w-full cursor-pointer rounded-l-full bg-gray/5 p-4 pl-12 max-sm:rounded-full"
+            className="h-[48px] w-full cursor-pointer rounded-full border border-gray bg-gray/5 p-4 pl-12 outline-black max-sm:rounded-full"
             placeholder="Rechercher un constructeur..."
             displayValue={(manufacturer: string) => manufacturer}
             onChange={(event) => setSelectedManufacturer(event.target.value)}

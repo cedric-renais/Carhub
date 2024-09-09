@@ -21,7 +21,11 @@ const Hero = () => {
           title="Explorer les voitures"
           type="button"
           containerStyles="bg-blue hover:bg-blue/90 transition-colors text-white rounded-full mt-10"
-          handleClick={handleScroll}
+          handleClick={() => {
+            document
+              .getElementById('discover')
+              ?.scrollIntoView({ behavior: 'smooth' });
+          }}
         />
       </div>
 
