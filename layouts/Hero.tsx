@@ -11,7 +11,7 @@ const Hero = () => {
     <section className="max__wrapper relative z-0 flex flex-col gap-5 xl:flex-row">
       <div className="padding__x flex-1 pt-36">
         <h1 className="font-manrope text-[50px] font-extrabold sm:text-[64px] 2xl:text-[72px]">
-          Trouver, réserver ou louer une voiture, rapidement et facilement
+          Louer une voiture, rapidement et facilement
         </h1>
         <p className="mt-5 text-[22px] font-light sm:text-[27px]">
           Simplifiez votre expérience de location de voiture avec notre

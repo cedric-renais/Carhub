@@ -8,7 +8,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Éssence',
     prix: 49,
-    image: '/assets/images/audi-a3.webp',
+    image: '/assets/images/audi/a3.webp',
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export const allCars = [
     transmission: 'Manuelle',
     carburant: 'Diesel',
     prix: 49,
-    image: '/assets/images/audi-a4.webp',
+    image: '/assets/images/audi/a4.webp',
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Éssence',
     prix: 49,
-    image: '/assets/images/audi-a6.webp',
+    image: '/assets/images/audi/a6.webp',
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ export const allCars = [
     transmission: 'Manuelle',
     carburant: 'Diesel',
     prix: 79,
-    image: '/assets/images/audi-q3.webp',
+    image: '/assets/images/audi/q3.webp',
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Éssence',
     prix: 79,
-    image: '/assets/images/audi-q5.webp',
+    image: '/assets/images/audi/q5.webp',
   },
   {
     id: 6,
@@ -63,7 +63,7 @@ export const allCars = [
     transmission: 'Diesel',
     carburant: 'Éssence',
     prix: 79,
-    image: '/assets/images/audi-q7.webp',
+    image: '/assets/images/audi/q7.webp',
   },
   {
     id: 7,
@@ -74,7 +74,7 @@ export const allCars = [
     transmission: 'Manuelle',
     carburant: 'Diesel',
     prix: 29,
-    image: '/assets/images/fiat-500.webp',
+    image: '/assets/images/fiat/500.webp',
   },
   {
     id: 8,
@@ -85,7 +85,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Éssence',
     prix: 29,
-    image: '/assets/images/fiat-panda.webp',
+    image: '/assets/images/fiat/panda.webp',
   },
   {
     id: 9,
@@ -96,7 +96,7 @@ export const allCars = [
     transmission: 'Manuelle',
     carburant: 'Diesel',
     prix: 29,
-    image: '/assets/images/fiat-tipo.webp',
+    image: '/assets/images/fiat/tipo.webp',
   },
   {
     id: 10,
@@ -107,7 +107,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Éssence',
     prix: 49,
-    image: '/assets/images/fiat-500x.webp',
+    image: '/assets/images/fiat/600.webp',
   },
   {
     id: 11,
@@ -118,7 +118,7 @@ export const allCars = [
     transmission: 'Manuelle',
     carburant: 'Diesel',
     prix: 49,
-    image: '/assets/images/fiat-500l.webp',
+    image: '/assets/images/fiat/strada.webp',
   },
   {
     id: 12,
@@ -129,7 +129,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Éssence',
     prix: 49,
-    image: '/assets/images/fiat-ducato.webp',
+    image: '/assets/images/fiat/punto.webp',
   },
   {
     id: 13,
@@ -140,7 +140,7 @@ export const allCars = [
     transmission: 'Manuelle',
     carburant: 'Éssence',
     prix: 59,
-    image: '/assets/images/bmw-serie1.webp',
+    image: '/assets/images/bmw/serie1.webp',
   },
   {
     id: 14,
@@ -151,7 +151,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Diesel',
     prix: 69,
-    image: '/assets/images/bmw-serie3.webp',
+    image: '/assets/images/bmw/serie3.webp',
   },
   {
     id: 15,
@@ -162,7 +162,7 @@ export const allCars = [
     transmission: 'Manuelle',
     carburant: 'Éssence',
     prix: 79,
-    image: '/assets/images/bmw-x1.webp',
+    image: '/assets/images/bmw/x1.webp',
   },
   {
     id: 16,
@@ -173,7 +173,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Diesel',
     prix: 89,
-    image: '/assets/images/bmw-x3.webp',
+    image: '/assets/images/bmw/x3.webp',
   },
   {
     id: 17,
@@ -184,7 +184,7 @@ export const allCars = [
     transmission: 'Manuelle',
     carburant: 'Éssence',
     prix: 99,
-    image: '/assets/images/bmw-serie5.webp',
+    image: '/assets/images/bmw/serie5.webp',
   },
   {
     id: 18,
@@ -195,7 +195,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Diesel',
     prix: 109,
-    image: '/assets/images/bmw-x5.webp',
+    image: '/assets/images/bmw/x5.webp',
   },
   {
     id: 19,
@@ -206,7 +206,7 @@ export const allCars = [
     transmission: 'Manuelle',
     carburant: 'Éssence',
     prix: 39,
-    image: '/assets/images/citroen-c3.webp',
+    image: '/assets/images/citroen/c3.webp',
   },
   {
     id: 20,
@@ -217,51 +217,51 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Diesel',
     prix: 49,
-    image: '/assets/images/citroen-c4.webp',
+    image: '/assets/images/citroen/c4.webp',
   },
   {
     id: 21,
     constructeur: 'Citroën',
-    modèle: 'C5',
+    modèle: 'C5X',
     année: 2019,
     consommation: '4,8 L/100 km',
     transmission: 'Manuelle',
     carburant: 'Éssence',
     prix: 59,
-    image: '/assets/images/citroen-c5.webp',
+    image: '/assets/images/citroen/c5x.webp',
   },
   {
     id: 22,
     constructeur: 'Citroën',
-    modèle: 'C3 Aircross',
+    modèle: 'DS4',
     année: 2020,
     consommation: '5,0 L/100 km',
     transmission: 'Automatique',
     carburant: 'Diesel',
     prix: 59,
-    image: '/assets/images/citroen-c3-aircross.webp',
+    image: '/assets/images/citroen/ds4.webp',
   },
   {
     id: 23,
     constructeur: 'Citroën',
-    modèle: 'Berlingo',
+    modèle: 'Cactus',
     année: 2021,
     consommation: '5,2 L/100 km',
     transmission: 'Manuelle',
     carburant: 'Éssence',
     prix: 69,
-    image: '/assets/images/citroen-berlingo.webp',
+    image: '/assets/images/citroen/cactus.webp',
   },
   {
     id: 24,
     constructeur: 'Citroën',
-    modèle: 'C5 Aircross',
+    modèle: 'C6',
     année: 2023,
     consommation: '5,5 L/100 km',
     transmission: 'Automatique',
     carburant: 'Diesel',
     prix: 79,
-    image: '/assets/images/citroen-c5-aircross.webp',
+    image: '/assets/images/citroen/c6.webp',
   },
   {
     id: 25,
@@ -272,7 +272,7 @@ export const allCars = [
     transmission: 'Manuelle',
     carburant: 'Éssence',
     prix: 49,
-    image: '/assets/images/honda-civic.webp',
+    image: '/assets/images/honda/civic.webp',
   },
   {
     id: 26,
@@ -283,7 +283,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Diesel',
     prix: 59,
-    image: '/assets/images/honda-accord.webp',
+    image: '/assets/images/honda/accord.webp',
   },
   {
     id: 27,
@@ -294,7 +294,7 @@ export const allCars = [
     transmission: 'Manuelle',
     carburant: 'Éssence',
     prix: 69,
-    image: '/assets/images/honda-crv.webp',
+    image: '/assets/images/honda/crv.webp',
   },
   {
     id: 28,
@@ -305,7 +305,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Diesel',
     prix: 69,
-    image: '/assets/images/honda-hrv.webp',
+    image: '/assets/images/honda/hrv.webp',
   },
   {
     id: 29,
@@ -316,7 +316,7 @@ export const allCars = [
     transmission: 'Manuelle',
     carburant: 'Éssence',
     prix: 79,
-    image: '/assets/images/honda-pilot.webp',
+    image: '/assets/images/honda/pilot.webp',
   },
   {
     id: 30,
@@ -327,7 +327,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Diesel',
     prix: 89,
-    image: '/assets/images/honda-odyssey.webp',
+    image: '/assets/images/honda/odyssey.webp',
   },
   {
     id: 31,
@@ -338,7 +338,7 @@ export const allCars = [
     transmission: 'Manuelle',
     carburant: 'Éssence',
     prix: 49,
-    image: '/assets/images/toyota-corolla.webp',
+    image: '/assets/images/toyota/corolla.webp',
   },
   {
     id: 32,
@@ -349,7 +349,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Diesel',
     prix: 59,
-    image: '/assets/images/toyota-camry.webp',
+    image: '/assets/images/toyota/camry.webp',
   },
   {
     id: 33,
@@ -360,7 +360,7 @@ export const allCars = [
     transmission: 'Manuelle',
     carburant: 'Éssence',
     prix: 69,
-    image: '/assets/images/toyota-rav4.webp',
+    image: '/assets/images/toyota/rav4.webp',
   },
   {
     id: 34,
@@ -371,7 +371,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Diesel',
     prix: 79,
-    image: '/assets/images/toyota-highlander.webp',
+    image: '/assets/images/toyota/highlander.webp',
   },
   {
     id: 35,
@@ -382,7 +382,7 @@ export const allCars = [
     transmission: 'Manuelle',
     carburant: 'Éssence',
     prix: 89,
-    image: '/assets/images/toyota-land-cruiser.webp',
+    image: '/assets/images/toyota/landcruiser.webp',
   },
   {
     id: 36,
@@ -393,7 +393,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Diesel',
     prix: 99,
-    image: '/assets/images/toyota-sienna.webp',
+    image: '/assets/images/toyota/sienna.webp',
   },
   {
     id: 37,
@@ -404,7 +404,7 @@ export const allCars = [
     transmission: 'Manuelle',
     carburant: 'Éssence',
     prix: 39,
-    image: '/assets/images/kia-rio.webp',
+    image: '/assets/images/kia/rio.webp',
   },
   {
     id: 38,
@@ -415,7 +415,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Diesel',
     prix: 49,
-    image: '/assets/images/kia-forte.webp',
+    image: '/assets/images/kia/forte.webp',
   },
   {
     id: 39,
@@ -426,7 +426,7 @@ export const allCars = [
     transmission: 'Manuelle',
     carburant: 'Éssence',
     prix: 59,
-    image: '/assets/images/kia-sportage.webp',
+    image: '/assets/images/kia/sportage.webp',
   },
   {
     id: 40,
@@ -437,7 +437,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Diesel',
     prix: 69,
-    image: '/assets/images/kia-sorento.webp',
+    image: '/assets/images/kia/sorento.webp',
   },
   {
     id: 41,
@@ -448,7 +448,7 @@ export const allCars = [
     transmission: 'Manuelle',
     carburant: 'Éssence',
     prix: 69,
-    image: '/assets/images/kia-niro.webp',
+    image: '/assets/images/kia/niro.webp',
   },
   {
     id: 42,
@@ -459,7 +459,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Diesel',
     prix: 79,
-    image: '/assets/images/kia-telluride.webp',
+    image: '/assets/images/kia/telluride.webp',
   },
   {
     id: 43,
@@ -470,7 +470,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Électrique',
     prix: 99,
-    image: '/assets/images/tesla-model3.webp',
+    image: '/assets/images/tesla/model-3.webp',
   },
   {
     id: 44,
@@ -481,7 +481,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Électrique',
     prix: 129,
-    image: '/assets/images/tesla-models.webp',
+    image: '/assets/images/tesla/model-s.webp',
   },
   {
     id: 45,
@@ -492,7 +492,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Électrique',
     prix: 149,
-    image: '/assets/images/tesla-modelx.webp',
+    image: '/assets/images/tesla/model-x.webp',
   },
   {
     id: 46,
@@ -503,7 +503,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Électrique',
     prix: 119,
-    image: '/assets/images/tesla-modely.webp',
+    image: '/assets/images/tesla/model-y.webp',
   },
   {
     id: 47,
@@ -514,7 +514,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Électrique',
     prix: 179,
-    image: '/assets/images/tesla-roadster.webp',
+    image: '/assets/images/tesla/roadster.webp',
   },
   {
     id: 48,
@@ -525,7 +525,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Électrique',
     prix: 199,
-    image: '/assets/images/tesla-cybertruck.webp',
+    image: '/assets/images/tesla/cybertruck.webp',
   },
   {
     id: 49,
@@ -536,7 +536,7 @@ export const allCars = [
     transmission: 'Manuelle',
     carburant: 'Éssence',
     prix: 49,
-    image: '/assets/images/volkswagen-golf.webp',
+    image: '/assets/images/volkswagen/golf.webp',
   },
   {
     id: 50,
@@ -547,7 +547,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Diesel',
     prix: 59,
-    image: '/assets/images/volkswagen-passat.webp',
+    image: '/assets/images/volkswagen/passat.webp',
   },
   {
     id: 51,
@@ -558,7 +558,7 @@ export const allCars = [
     transmission: 'Manuelle',
     carburant: 'Éssence',
     prix: 69,
-    image: '/assets/images/volkswagen-tiguan.webp',
+    image: '/assets/images/volkswagen/tiguan.webp',
   },
   {
     id: 52,
@@ -569,7 +569,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Diesel',
     prix: 79,
-    image: '/assets/images/volkswagen-touareg.webp',
+    image: '/assets/images/volkswagen/touareg.webp',
   },
   {
     id: 53,
@@ -580,7 +580,7 @@ export const allCars = [
     transmission: 'Manuelle',
     carburant: 'Éssence',
     prix: 79,
-    image: '/assets/images/volkswagen-arteon.webp',
+    image: '/assets/images/volkswagen/arteon.webp',
   },
   {
     id: 54,
@@ -591,7 +591,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Électrique',
     prix: 89,
-    image: '/assets/images/volkswagen-id4.webp',
+    image: '/assets/images/volkswagen/id4.webp',
   },
   {
     id: 55,
@@ -602,7 +602,7 @@ export const allCars = [
     transmission: 'Manuelle',
     carburant: 'Éssence',
     prix: 59,
-    image: '/assets/images/mercedes-benz-a-class.webp',
+    image: '/assets/images/mercedes/class-a.webp',
   },
   {
     id: 56,
@@ -613,7 +613,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Diesel',
     prix: 69,
-    image: '/assets/images/mercedes-benz-c-class.webp',
+    image: '/assets/images/mercedes/class-c.webp',
   },
   {
     id: 57,
@@ -624,7 +624,7 @@ export const allCars = [
     transmission: 'Manuelle',
     carburant: 'Éssence',
     prix: 79,
-    image: '/assets/images/mercedes-benz-e-class.webp',
+    image: '/assets/images/mercedes/class-e.webp',
   },
   {
     id: 58,
@@ -635,7 +635,7 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Diesel',
     prix: 79,
-    image: '/assets/images/mercedes-benz-gla.webp',
+    image: '/assets/images/mercedes/gla.webp',
   },
   {
     id: 59,
@@ -646,7 +646,7 @@ export const allCars = [
     transmission: 'Manuelle',
     carburant: 'Éssence',
     prix: 89,
-    image: '/assets/images/mercedes-benz-gle.webp',
+    image: '/assets/images/mercedes/gle.webp',
   },
   {
     id: 60,
@@ -657,6 +657,6 @@ export const allCars = [
     transmission: 'Automatique',
     carburant: 'Diesel',
     prix: 99,
-    image: '/assets/images/mercedes-benz-s-class.webp',
+    image: '/assets/images/mercedes/class-s.webp',
   },
 ];

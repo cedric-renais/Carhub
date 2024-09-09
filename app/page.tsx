@@ -39,7 +39,7 @@ export default function Home() {
         </div>
         {!isDataEmpty ? (
           <section>
-            <div className="grid w-full grid-cols-1 gap-8 pt-14 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
+            <div className="grid w-full grid-cols-1 gap-8 pt-14 md:grid-cols-2 xl:grid-cols-3">
               {filteredCars.length > 0 ? (
                 filteredCars.map((car: CarProps) => (
                   <CarCard key={car.id} car={car} />

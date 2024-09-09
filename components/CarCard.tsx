@@ -1,5 +1,5 @@
+import { Button } from '@components';
 import { Gas, Wheel } from '@public/assets/icons';
-import { Car } from '@public/assets/images';
 import { CarProps } from '@types';
 import Image from 'next/image';
 
@@ -22,10 +22,11 @@ const CarCard = ({ car }: CarCardProps) => {
         </p>
         <div className="relative my-3 h-40 w-full">
           <Image
-            className="object-contain"
-            src={Car}
-            alt={`${constructeur}, ${modèle}`}
+            className="object-contain transition-transform hover:scale-110"
+            src={image}
+            alt={`${constructeur}, ${modèle}.`}
             fill
+            sizes="100%"
           />
         </div>
       </div>
@@ -39,6 +40,13 @@ const CarCard = ({ car }: CarCardProps) => {
             <Image src={Gas} alt="" width={20} height={20} />
             <p>{carburant}</p>
           </div>
+        </div>
+        <div className="absolute bottom-0 z-10 hidden w-full group-hover:flex">
+          <Button
+            title="Voir plus"
+            containerStyles="w-full py-[16px] rounded-full bg-blue"
+            textStyles="text-white font-semibold"
+          />
         </div>
       </div>
     </div>

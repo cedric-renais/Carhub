@@ -30,8 +30,8 @@ const SearchManufacturer = ({
   const filteredManufacturers =
     selectedManufacturer === ''
       ? uniqueManufacturers
-      : uniqueManufacturers.filter((name) =>
-          name
+      : uniqueManufacturers.filter((item) =>
+          item
             .toLowerCase()
             .replace(/\s+/g, '')
             .includes(selectedManufacturer.toLowerCase().replace(/\s+/g, ''))
@@ -52,7 +52,7 @@ const SearchManufacturer = ({
           </ComboboxButton>
           <ComboboxInput
             className="h-[48px] w-full cursor-pointer rounded-l-full bg-gray/5 p-4 pl-12 max-sm:rounded-full"
-            placeholder="Volkswagen..."
+            placeholder="Rechercher un constructeur..."
             displayValue={(manufacturer: string) => manufacturer}
             onChange={(event) => setSelectedManufacturer(event.target.value)}
             autoComplete="off"
@@ -66,7 +66,7 @@ const SearchManufacturer = ({
             afterLeave={() => setSelectedManufacturer('')}
           >
             <ComboboxOptions
-              className="mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg sm:text-sm"
+              className="absolute z-10 mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg sm:text-sm"
               static
             >
               {filteredManufacturers.length === 0 &&
@@ -88,7 +88,7 @@ const SearchManufacturer = ({
                     }
                     value={manufacturer}
                   >
-                    {({ selected }) => (
+                    {({ selected, focus }) => (
                       <>
                         <span
                           className={`block truncate ${selected ? 'font-bold' : 'font-normal'}`}
@@ -97,7 +97,7 @@ const SearchManufacturer = ({
                         </span>
                         {selected ? (
                           <span
-                            className={`absolute inset-y-0 left-0 flex items-center pl-3`}
+                            className={`absolute inset-y-0 left-0 flex items-center pl-3 ${focus ? 'text-white' : 'text-blue'}`}
                           ></span>
                         ) : null}
                       </>
